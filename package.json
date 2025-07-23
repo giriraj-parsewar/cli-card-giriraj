@@ -1,0 +1,21 @@
+{
+  "name": "giriraj",
+  "version": "1.0.0",
+  "description": "CLI business card for Giriraj",
+  "main": "card.js",
+  "bin": {
+    "giriraj": "./card.js"
+  },
+  "type": "module",
+  "author": "Giriraj Parsewar",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.2",
+    "gradient-string": "^3.0.0",
+    "inquirer": "^9.3.7",
+    "open": "^10.2.0",
+    "ora": "^8.2.0"
+  }
+}
